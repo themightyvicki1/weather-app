@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!--install bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!--axios library to make an API call, so you can use AJAX-->
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Project Plus</title>
+
+    <!-- to use font awesome insert here-->
+    <script
+      src="https://kit.fontawesome.com/fbe149edcc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-for-city">
+        <input
+          class="enter-city"
+          type="text"
+          placeholder="Enter city..."
+          autofocus="on"
+          autocomplete="off"
+          id="search-input"
+          ;
+        />
+        <input class="search-button" type="submit" value="Search" />
+        <span><button id="current-weather-button">Show current</button></span>
+      </form>
+
+      <h1 id="city">Sacramento</h1>
+      <h2>description</h2>
+      <h3><i class="fa-regular fa-sun"></i></h3>
+      <!-- this will get updated with the current weather based on search AND when hitting current button-->
+      <div class="current-header" id="current-header">current</div> <span id = "feels">feels like </span><span class = "feels-like"></span>
+
+      <!-- creating grid for days of the week-->
+      <div class="row">
+        <div class="col-3" id="additional-info-header">humidity <i class="fa-solid fa-water"></i>
+        <div class = "additional" id = "hum"></div>
+        </div>
+        <div class="col-3" id="additional-info-header">
+          wind <i class="fa-solid fa-wind"></i>
+          <div class = "additional" id = "wind"></div>
+        </div>
+        <div class="col-3" id="additional-info-header">
+          min <i class="fa-solid fa-temperature-low"></i>
+          <div class = "additional" id = "min" ></div>
+        </div>
+        <div class="col-3" id="additional-info-header">
+          max <i class="fa-solid fa-temperature-high"></i>
+          <div class = "additional" id = "max"></div>
+      </div>
+    </div>
+
+    <footer>Open source code by Victoria Greer</footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 12px;
+}
+
+h1 {
+  color: #dfdfdf;
+}
+
+h2 {
+  color: #ea8a8a;
+}
+h3 {
+  font-size: 14px;
+  color: #add2c9;
+  font-weight: 650;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.search-button {
+  background: #fda403;
+  font-size: 14px;
+}
+
+.container {
+  border: 3px solid black;
+  max-width: 600px;
+  border-radius: 15px;
+  margin-top: 30px;
+  background: linear-gradient(
+    109.5deg,
+    rgb(13, 11, 136) 9.4%,
+    rgb(86, 255, 248) 78.4%
+  );
+}
+
+.col-3 {
+  color: #ffc0d0;
+  font-weight: 650;
+}
+
+.additional {
+  color: #ffc0d0;
+  margin-bottom: px;
+}
+
+#current-weather-button {
+  color: brown;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#current-header {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.feels-like {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+#feels {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
